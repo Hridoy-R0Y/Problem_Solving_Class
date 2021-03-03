@@ -8,12 +8,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void Fun(int i)
+void Fun(int i, int n)
 {
-    if(i == 0) return;
+    if(i > n) return;
     cout<<i<<"  I am Hridoy"<<endl;
-    i--;
-    Fun(i);
+    Fun(i + 1 , n);
 }
 
 int main()
@@ -25,5 +24,5 @@ int main()
     ///    cout<<i<<"  I am Hridoy"<<endl;
     ///}
 
-    Fun(n);
+    Fun(1, n);
 }
