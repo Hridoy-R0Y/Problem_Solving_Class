@@ -25,11 +25,11 @@ void Fun2(int i, int n)
     cout<<i<<"+";
     Fun2(i - 1 , n);
 }
-
 int main()
 {
     int n;
     cin>>n;
     Fun1(1, n);
     Fun2(n,1);
+
 }
