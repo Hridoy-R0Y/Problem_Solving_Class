@@ -15,7 +15,7 @@ int main() {
     return 0;
 }
 
-/// Tibonacci
+/// Tibonacci (Named by author for fun)
 /// 0 1 2 3 6 11 20 37 68 ....... (task1)
 /// 4 -> 12 , 5 -> 23 ......... (task2)
 

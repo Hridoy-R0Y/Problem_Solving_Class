@@ -1,5 +1,5 @@
 /*
-2 steps
+Need to follow 2 steps
 1. must have exit or terminate point
 2. must call recursive function into that function body
 */
